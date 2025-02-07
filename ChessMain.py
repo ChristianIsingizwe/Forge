@@ -27,6 +27,8 @@ def loadImages():
         IMAGES[piece] = p.transform.scale(p.image.load("images/" + piece + ".png"), (SQUARE_SIZE, SQUARE_SIZE))
 
 
+
+
 def main():
     """
     The main driver for our code.

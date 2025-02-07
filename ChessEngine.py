@@ -147,7 +147,9 @@ class GameState:
             self.current_castling_rights.wks = False
         elif move.piece_moved == 'bK':
             self.current_castling_rights.bqs = False
+            
             self.current_castling_rights.bks = False
+            
         elif move.piece_moved == 'wR':
             if move.start_row == 7:
                 if move.start_col == 0:  # left rook
